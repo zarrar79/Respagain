@@ -1,0 +1,410 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('Avenir Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Airbnb Cereal App';
+    src: url('AirbnbCereal_W_Bk.otf') format('opentype');
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .headsec{
+    margin: 0 auto;
+    padding: auto;
+    width: 100%;
+    max-width: 1400px;
+  }
+  .tsec{
+    margin: 0 auto;
+    padding: auto;
+    width: 100%;
+    max-width: 1400px;
+    position: relative;
+  }
+  .tfoot{
+    margin: 0 auto;
+    padding: auto;
+    width: 100%;
+    max-width: 1400px;
+  }
+    .header{
+    align-items: center;
+    margin-top: 2.7vh;
+    margin-left: 12vh;
+    margin-bottom: 2.1vh;
+    color: rgba(62, 129, 128, 1);
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;;
+  }
+  @media screen and (min-width:992px) and (max-width:1199px) {
+     .header{
+        margin-left: 11vh;
+     }
+  }
+  @media screen and (min-width:768px) and (max-width:991px){
+    .header{
+        margin-left: 9vh;
+    }
+  }
+  @media screen and (min-width:600px) and (max-width: 767px) {
+    .header{
+     margin-left: 8vh;
+    }
+  }
+  @media screen and (max-width:599px) {
+    .header{
+        margin-left: 9vh;
+    }
+  }
+  @media screen and (max-width:280px) {
+    .header{
+        margin-left: 3vh;
+        max-width: 85%;
+    }
+  }
+   .leftside{
+    display: flex;
+  }
+  .fresh{
+    margin-top: .3vh;
+    margin-left: 0.5vh;
+    font-family: Avenir;
+     font-weight: 400;
+     font-size: 20px;
+  }
+  @media screen and (max-width:280px) {
+    .fresh{
+        font-size: 16px;
+    }
+  }
+  .build{
+    font-family: Avenir;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  @media screen and (max-width:280px) {
+    .build{
+        font-size: 15px;
+    }
+  }
+  .right{
+    font-family: Airbnb Cereal App;
+    font-weight: 700;
+    font-size:16px ;
+    color: rgba(50, 44, 78, 1);
+  }
+  @media screen and (max-width:280px) {
+    .right{
+        font-size: 13px;
+    }
+  }
+  .sechome{
+    position: relative;
+   background-image: radial-gradient(rgba(227, 227, 227, 1),
+   rgba(215, 253, 244, 1));
+   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+   padding-bottom: 5vh;
+  }
+  @media screen and (min-width:1200px) {
+    .sechome{
+        padding-bottom: 5vh;
+    }
+  }
+  @media screen and (min-width:992px) and (max-width:1199px) {
+    .sechome{
+        padding-bottom: 7vh;
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:991px) {
+    .sechome{
+    padding-bottom: 6vh;
+    }
+  }
+  .lefth{
+    top: 7vh;
+     position: absolute;
+     z-index: 1;
+  }
+  @media screen and (min-width:768px) and (max-width:991px) {
+   .lefth{
+    display: none;
+   } 
+  }
+  @media screen and (min-width:600px) and (max-width: 767px) {
+    .lefth{
+        display: block;
+    }
+  }
+  @media screen and (max-width:280px){
+    .lefth{
+       display: none;
+    }
+  }
+  .lefthm{
+    top:5.3vh;
+  }
+  .righth{
+    text-align: center;
+    align-items: center;
+  }
+  .discout{
+    z-index: 2;
+    text-align: center;
+  }
+  .discover{
+    padding-top: 9vh;
+    line-height: 50.4px;
+    font-family: Monsterrat;
+    font-weight: 800;
+    font-size: 42px;
+    color:rgba(62, 129, 128, 1);
+    font-family: Airbnb Cereal App;
+  }
+  @media screen and (max-width:280px) {
+    .discover{
+      padding-left: 12px;
+      font-size: 33px;
+      line-height: normal;
+    }
+  }
+  .from{
+    margin-top: 2vh;
+    text-align: center;
+    font-family: Airbnb Cereal App;
+    font-weight: 500;
+    font-size: 20px;
+     color: rgba(50, 44, 78, 1);
+  }
+  @media screen and (max-width:280px) {
+    .from{
+        font-size: 16px;
+    }
+  }
+  .search{
+    display: flex;
+    justify-content: center;
+  }
+  .searchf{
+    padding-top:14px;
+    padding-bottom: 2.1vh;
+    cursor:pointer;
+    margin-top: 3vh;
+    font-weight: 0;
+    font-size: 0;
+    font-family: Airbnb Cereal App;
+    font-weight: 600;
+    font-size: 15px;
+    color: 
+    rgba(255, 255, 255, 1);
+    width: 192px;
+    height: 52px;
+    border-radius: 5px;
+    border: 1px solid rgba(232, 127, 63, 1);   
+    background-color: 
+    rgba(232, 127, 63, 1);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  @media screen and (min-width:992px) and (max-width:1199px) {
+    .searchf{
+        padding-top: 13px;
+    }
+  }
+  @media screen and (min-width:600px) and (max-width: 767px) {
+    .searchf{
+      padding-top: 12.5px;
+    }
+  }
+  @media screen and (max-width:280px){
+    .searchf{
+        padding-top: 14px;
+       max-width: 53%;
+       font-size: 12px;
+    }
+  }
+  .thome{
+    position: relative;
+    font-family: Avenir;
+    font-weight: 800;
+    font-size: 26px;
+    border: 1px rgb(241, 241, 241) solid;
+    background-color: rgb(241, 241, 241);
+  }
+  @media screen and (min-width:768px) and (max-width:991px) {
+    .thome{
+        font-size: 20px;
+    }
+    .thome .bbuilds{
+        font-size: 20px;
+    }
+  }
+  .john{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 1);
+  display: flex;
+   padding-left: 14px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 5vh;
+    font-family: Airbnb Cereal App;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.83px;
+    box-shadow: 0 6px 40px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    top: 20px;
+    right: 0.1px;
+  
+  }
+  @media screen and (max-width:1200px) {
+    .john{
+    line-height: normal;
+    padding-left: 10px;
+    font-size: 14px;
+    padding-right: 3vh;
+    }
+  }
+  @media screen and (min-width:600px) and (max-width:767px) {
+    .john{
+        top: 5px;
+    }
+  }
+  .daunthome{
+    margin-top: 3px;
+  }
+  .jhons{
+    margin-left: 12px;
+  }
+  .buy{
+    line-height: 39px;
+    text-align:center;
+    padding-top: 9vh;
+  }
+  .bbuilds{
+    font-family: Airbnb Cereal App;
+    color: rgba(62, 129, 128, 1);
+    font-weight: 500;
+    font-size: 26px;
+  }
+  .tgrid{
+    position: relative;
+    padding-left: 2vh;
+    margin-top: 6vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    gap: 19px;
+    height: auto;
+    width:auto;
+  }
+  @media screen and (min-width:600px) and (max-width:767px){
+    .tgrid{
+        grid-template-columns: 1fr;
+    }
+  }
+  .tleft{
+    font-family: Airbnb Cereal App;
+  }
+  @media screen and (min-width:768px) and (max-width:991px) {
+    .tleft{
+        max-width: 20%;
+    }
+  }
+  .tleft .all{
+    border: 2px 
+    rgba(92, 202, 171, 1) solid;
+    margin-left: 10vh;
+    box-shadow: 0px 4px 44px 0px  rgba(14, 21, 50, 0.1);
+  }
+  .dollar{
+     margin-bottom: 4.5vh;
+  }
+  .dbold{
+    font-weight: 800;
+    font-size: 22px;
+    color: rgba(62, 129, 128, 1);
+    margin-bottom: 0.5vh;
+  }
+  .dtext{
+  font-weight: 400;
+  font-size: 15.5px;
+  color: rgb(29, 35, 63);
+  }
+  .tmid .all{
+    margin-left: 1vh;
+  }
+  @media screen and (min-width:768px) and (max-width:991px) {
+    .tgrid{
+        margin-right: 9vh;
+    }
+  }
+  .tmid{
+    font-family: Airbnb Cereal App;
+    margin-bottom: 0;
+  }
+  @media screen and (min-width:992px) and (max-width:1199px) {
+    .tmid{
+        z-index: 2;
+    }
+  }
+.timage{
+    position: absolute;
+    right: 50px;
+    bottom: -38px;
+  }
+  @media screen and (min-width:1200px) {
+    .timage{
+        right: -1px;
+        bottom: -42px;
+    }
+  }
+  @media screen and (min-width:992px) and (max-width:1199px) {
+    .timage{
+        z-index: 1;
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:991px) {
+    .timage{
+        display: none;
+    }
+  }
+  @media screen and (min-width:600px) and (max-width:767px) {
+    .timage{
+        display: none;
+    }
+  }
+  .timage img{
+    max-width: 410px;
+  }
+  .all{
+    margin-top: 2.6vh;
+    border-radius: 10px;
+    padding-left: 3.7vh;
+    width: 365px;
+    padding-right:4vh;
+    padding-bottom: 3vh;
+    padding-top: 7vh;
+    background-color: 
+    rgba(255, 255, 255, 1);
+  }
+  @media screen and (min-width:768px) and (max-width:991px) {
+    .all{
+        max-width: 351px;
+    }
+  }
+  .tmid .all{
+    max-width: 370px;
+    padding-bottom: 1px;
+  }
+  .timage{
+    margin-left: 6.6vh;
+  }
+  .tmid .all{
+    padding-top: 8vh;
+    padding-bottom: 14px;
+  }
+  
