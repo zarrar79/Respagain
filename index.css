@@ -380,6 +380,7 @@
   @media screen and (min-width:280px)and (max-width:499px){
     .tgrid{
         grid-template-columns: 1fr;
+        margin-right: 1.5rem;
     }
   }
   .tleft{
@@ -394,6 +395,11 @@
   @media screen and (min-width:500px) and (max-width:599px){
     .tleft .all{
       margin-left: 1rem;
+    }
+  }
+  @media screen and (min-width:280px) and (max-width:499px){
+    .tleft .all{
+      margin-left: 0vh;
     }
   }
   .dollar{
@@ -484,8 +490,11 @@
   }
   @media screen and (min-width:280px)and (max-width:499px){
     .all{
-        max-width: 200px;
+        max-width: 242px;
     }
+  }
+  .tleft{
+    margin-left: 1rem;
   }
   @media screen and (min-width:768px) and (max-width:991px) {
     .all{
@@ -498,8 +507,8 @@
   }
   @media screen and (min-width:280px)and (max-width:499px){
     .tmid .all{
-        max-width: 200px;
-        margin-left: 3rem;
+        max-width: 242px;
+        margin-left: 1rem;
     }
   }
   @media screen and (min-width:500px) and (max-width:599px){
