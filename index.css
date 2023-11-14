@@ -37,7 +37,7 @@
     color: rgba(62, 129, 128, 1);
     display: flex;
     justify-content: space-between;
-    max-width: 85%;;
+    max-width: 85%;
   }
   @media screen and (min-width:992px) and (max-width:1199px) {
      .header{
@@ -59,7 +59,7 @@
         margin-left: 9vh;
     }
   }
-  @media screen and (max-width:280px) {
+  @media screen and (min-width:280px) and (max-width:499px) {
     .header{
         margin-left: 3vh;
         max-width: 85%;
@@ -75,7 +75,7 @@
      font-weight: 400;
      font-size: 20px;
   }
-  @media screen and (max-width:280px) {
+  @media screen and (min-width:280px)  and (max-width:499px){
     .fresh{
         font-size: 16px;
     }
@@ -85,7 +85,7 @@
     font-weight: 800;
     font-size: 20px;
   }
-  @media screen and (max-width:280px) {
+  @media screen and (min-width:280px)  and (max-width:499px){
     .build{
         font-size: 15px;
     }
@@ -96,7 +96,7 @@
     font-size:16px ;
     color: rgba(50, 44, 78, 1);
   }
-  @media screen and (max-width:280px) {
+  @media screen and (min-width:280px) and (max-width:499px) {
     .right{
         font-size: 13px;
     }
@@ -110,7 +110,7 @@
   }
   @media screen and (min-width:1200px) {
     .sechome{
-        padding-bottom: 5vh;
+        padding-bottom: 8vh;
     }
   }
   @media screen and (min-width:992px) and (max-width:1199px) {
@@ -135,12 +135,17 @@
   }
   @media screen and (min-width:600px) and (max-width: 767px) {
     .lefth{
-        display: block;
+        display: none;
     }
   }
-  @media screen and (max-width:280px){
+  @media screen and (min-width:280px) and (max-width:499px){
     .lefth{
        display: none;
+    }
+  }
+  @media screen and (min-width:500px) and (max-width:599px){
+    .lefth{
+      display: none;
     }
   }
   .lefthm{
@@ -163,7 +168,12 @@
     color:rgba(62, 129, 128, 1);
     font-family: Airbnb Cereal App;
   }
-  @media screen and (max-width:280px) {
+  @media screen and (min-width:600px) and (max-width:767px){
+    .discover{
+        font-size: 38px;
+    }
+  }
+  @media screen and (min-width:280px) and (max-width:499px){
     .discover{
       padding-left: 12px;
       font-size: 33px;
@@ -178,9 +188,21 @@
     font-size: 20px;
      color: rgba(50, 44, 78, 1);
   }
-  @media screen and (max-width:280px) {
+  @media screen and (min-width:280px) and (max-width:499px){
     .from{
         font-size: 16px;
+    }
+  }
+  @media screen and (min-width:500px) and (max-width:599px){
+    .from{
+      padding-left: 12px;
+      padding-right: 12px;
+      font-size: 19px;
+    }
+  }
+  @media screen and (min-width:600px) and (max-width:767px){
+    .from{
+        font-size: 18px;
     }
   }
   .search{
@@ -219,11 +241,11 @@
       padding-top: 12.5px;
     }
   }
-  @media screen and (max-width:280px){
+  @media screen and (min-width:280px)and (max-width:499px){
     .searchf{
         padding-top: 14px;
        max-width: 53%;
-       font-size: 12px;
+       font-size: 13px;
     }
   }
   .thome{
@@ -260,6 +282,18 @@
     right: 0.1px;
   
   }
+  @media screen and (min-width:248px) and (max-width:499px){
+    .john{
+      top: 1.5vh;
+      font-size: 14px;
+    }
+  }
+  @media screen and (min-width:500px) and (max-width:599px){
+    .john{
+      top: 1vh;
+      font-size: 9px;
+    }
+  }
   @media screen and (max-width:1200px) {
     .john{
     line-height: normal;
@@ -271,6 +305,9 @@
   @media screen and (min-width:600px) and (max-width:767px) {
     .john{
         top: 5px;
+        font-size: 13px;
+        padding-top: 3px;
+        padding-bottom: 3px;
     }
   }
   .daunthome{
@@ -284,11 +321,33 @@
     text-align:center;
     padding-top: 9vh;
   }
+  @media screen and (min-width:248px) and (max-width:499px){
+    .buy{
+      padding-top: 14vh;
+    }
+  }
+  @media screen and (min-width:500px) and (max-width:599px){
+    .buy{
+      padding-top: 14vh;
+    }
+  }
+  @media screen and (min-width:600px) and (max-width:767px){
+    .buy{
+      margin-top: 2vh;
+        font-size: 20px;
+        line-height: normal;
+    }
+  }
   .bbuilds{
     font-family: Airbnb Cereal App;
     color: rgba(62, 129, 128, 1);
     font-weight: 500;
     font-size: 26px;
+  }
+  @media screen and (min-width:600px) and (max-width:767px){
+    .bbuilds{
+        font-size: 18px;
+    }
   }
   .tgrid{
     position: relative;
@@ -301,7 +360,24 @@
     height: auto;
     width:auto;
   }
+  @media screen and (min-width:500px) and (max-width:599px) {
+    .tgrid{
+      grid-template-columns: 1fr 1fr;
+    }
+  }
   @media screen and (min-width:600px) and (max-width:767px){
+    .tgrid{
+        grid-template-columns: 1fr;
+        margin-left: 4rem;
+    }
+  }
+  @media screen and (min-width:767px) and (max-width:991px) {
+    .tgrid{
+       grid-template-columns: 1fr 1fr;
+      width: 90%;
+    }
+  }
+  @media screen and (min-width:280px)and (max-width:499px){
     .tgrid{
         grid-template-columns: 1fr;
     }
@@ -309,16 +385,16 @@
   .tleft{
     font-family: Airbnb Cereal App;
   }
-  @media screen and (min-width:768px) and (max-width:991px) {
-    .tleft{
-        max-width: 20%;
-    }
-  }
   .tleft .all{
     border: 2px 
     rgba(92, 202, 171, 1) solid;
     margin-left: 10vh;
     box-shadow: 0px 4px 44px 0px  rgba(14, 21, 50, 0.1);
+  }
+  @media screen and (min-width:500px) and (max-width:599px){
+    .tleft .all{
+      margin-left: 1rem;
+    }
   }
   .dollar{
      margin-bottom: 4.5vh;
@@ -336,6 +412,11 @@
   }
   .tmid .all{
     margin-left: 1vh;
+  }
+  @media screen and (min-width:600px) and (max-width:767px){
+    .tmid{
+        margin-left: 3rem;
+    }
   }
   @media screen and (min-width:768px) and (max-width:991px) {
     .tgrid{
@@ -362,6 +443,11 @@
         bottom: -42px;
     }
   }
+  @media screen and (min-width:500px) and (max-width:599px){
+    .timage{
+      display: none;
+    }
+  }
   @media screen and (min-width:992px) and (max-width:1199px) {
     .timage{
         z-index: 1;
@@ -377,6 +463,11 @@
         display: none;
     }
   }
+  @media screen and (min-width:280px)and (max-width:499px){
+    .timage{
+        display: none;
+    }
+  }
   .timage img{
     max-width: 410px;
   }
@@ -384,12 +475,17 @@
     margin-top: 2.6vh;
     border-radius: 10px;
     padding-left: 3.7vh;
-    width: 365px;
+   max-width: 365px;
     padding-right:4vh;
     padding-bottom: 3vh;
     padding-top: 7vh;
     background-color: 
     rgba(255, 255, 255, 1);
+  }
+  @media screen and (min-width:280px)and (max-width:499px){
+    .all{
+        max-width: 200px;
+    }
   }
   @media screen and (min-width:768px) and (max-width:991px) {
     .all{
@@ -399,6 +495,17 @@
   .tmid .all{
     max-width: 370px;
     padding-bottom: 1px;
+  }
+  @media screen and (min-width:280px)and (max-width:499px){
+    .tmid .all{
+        max-width: 200px;
+        margin-left: 3rem;
+    }
+  }
+  @media screen and (min-width:500px) and (max-width:599px){
+    .tmid .all{
+      max-width: 207px;
+    }
   }
   .timage{
     margin-left: 6.6vh;
