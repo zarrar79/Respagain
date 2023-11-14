@@ -354,6 +354,7 @@
     padding-left: 2vh;
     margin-top: 6vh;
     display: grid;
+    margin-left: 4rem;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
     gap: 19px;
@@ -389,7 +390,7 @@
   .tleft .all{
     border: 2px 
     rgba(92, 202, 171, 1) solid;
-    margin-left: 10vh;
+    margin-left: 2rem;
     box-shadow: 0px 4px 44px 0px  rgba(14, 21, 50, 0.1);
   }
   @media screen and (min-width:500px) and (max-width:599px){
@@ -496,7 +497,7 @@
   .tleft{
     margin-left: 1rem;
   }
-  @media screen and (min-width:768px) and (max-width:991px) {
+  @media screen and (min-width:768px) and (max-width:991px){
     .all{
         max-width: 351px;
     }
@@ -522,5 +523,63 @@
   .tmid .all{
     padding-top: 8vh;
     padding-bottom: 14px;
+}
+.fgrid{
+  display: grid;
+  margin-top: 2vh;
+   grid-template-columns: 1fr 1fr;
+   font-family: Airbnb Cereal App;
+   width: 80%;
+   margin-left: 10rem; 
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+  .fgrid{
+   margin-left: 7rem;
   }
-  
+}
+@media screen and (min-width:768px) and (max-width:991px){
+  .fgrid{
+     max-width: 40%;
+  }
+}
+.fleft .all{
+  padding-top: 7vh;
+  padding-bottom: 9px;
+  margin-left: 16rem;
+}
+@media screen and (min-width:1200px) {
+  .fleft .all{
+    padding-bottom: 14px;
+    margin-left: 9rem;
+  }
+}
+@media screen and (min-width:992px) and (max-width:1199px) {
+  .fleft .all{
+    margin-left: 1rem;
+    padding-bottom: 14px;
+  }
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+  .fleft .all{
+    /* margin-left: 5rem; */
+  }
+}
+.fright  .dollar{
+  margin-top: 2px;
+  margin-bottom: 37px;
+}
+.fright .all{
+  padding-top:7vh;
+  width: 400px;
+  padding-bottom: 9px;
+}
+@media screen and (min-width:1200px) {
+  .fright .all{
+    padding-bottom: 14px;
+  }
+}
+@media screen and (min-width:992px) and (max-width:1199px) {
+  .fright .all{
+    padding-bottom:19px;
+  }
+}
