@@ -387,7 +387,7 @@
   @media screen and (min-width:280px)and (max-width:499px){
     .tgrid{
         grid-template-columns: 1fr;
-        margin-right: 1.5rem;
+        margin-left: 0rem;
     }
   }
 
@@ -539,6 +539,13 @@
    width: 80%;
    margin-left: 10rem; 
 }
+@media screen and (min-width:280px) and (max-width:499px) {
+    .fgrid{
+      grid-template-columns: 1fr;
+      margin-left: 1.5rem;
+      padding-right: 2rem;
+    }
+}
 @media screen and (min-width:992px) and (max-width:1199px){
   .fgrid{
    margin-left: 7rem;
@@ -562,6 +569,11 @@
   padding-top: 7vh;
   padding-bottom: 9px;
   margin-left: 16rem;
+}
+@media screen and (min-width:280px) and (max-width:499px) {
+  .fleft .all{
+    margin-left: 0rem;
+  }
 }
 @media screen and (min-width:1200px) {
   .fleft .all{
