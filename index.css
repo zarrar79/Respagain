@@ -1159,7 +1159,7 @@ margin-left: 3vh;
 @media screen and (max-width:499px) {
   .cdtext{
     text-align: center;
-    /* font-size: 10px;*/
+    margin-right:9px;
   }
   .imagecd img{
     max-width: 20px;
