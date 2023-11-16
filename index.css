@@ -718,6 +718,11 @@
     padding-left: 11rem;
   }
 }
+@media screen and (max-width:1064px) {
+  .large{
+    margin-left: 2rem;
+  }
+}
 @media screen and (max-width:1199px) {
   .large{
     padding-left: 3rem;
