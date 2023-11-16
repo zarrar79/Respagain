@@ -1016,6 +1016,12 @@ margin-left: 3vh;
   @media screen and (max-width:992px) {
     .rleft{
       margin-left: 2vh;
+      padding-bottom: 2vh;
+    }
+  }
+  @media screen and (max-width:406px) {
+    .rleft{
+      margin-left: 34px;
     }
   }
   .rtext{
@@ -1059,3 +1065,32 @@ margin-left: 3vh;
       margin-right: 2vh;
     }
   }
+  @media screen and (max-width:406px) {
+    .rright{
+      margin-top: 5vh;
+      margin-right: 5vh;
+      margin-left: 5vh;
+      padding-bottom: 2vh;
+    }
+  }
+.whatever{
+  margin-top: 11vh;
+  text-align: center;
+}
+@media screen and (max-width:631px) {
+  .whatever{
+    font-size: 23px;
+    margin-top: 8vh;
+  }
+  .whatever .bbuilds{
+    font-size: 22px;  
+  }
+}
+@media screen and (max-width:499px) {
+  .whatever{
+    font-size: 19px;
+  }
+  .whatever .bbuilds{
+    font-size: 19px;
+  }
+}
