@@ -1011,7 +1011,7 @@ margin-left: 3vh;
     background-color: 
     rgba(255, 255, 255, 1);
     box-shadow: 0px 3px 30px 0px rgba(45, 39, 71, 0.1) ;
-     padding-bottom: 0.5vh;
+     padding-bottom: 1.5vh;
   }
   @media screen and (max-width:992px) {
     .rleft{
@@ -1092,5 +1092,120 @@ margin-left: 3vh;
   }
   .whatever .bbuilds{
     font-size: 19px;
+  }
+}
+@media screen and (max-width:433px) {
+  .whatever{
+    font-size: 17px;
+  }
+  .whatever .bbuilds{
+    padding-left: 1px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width:347px) {
+  .whatever{
+    font-size: 22px;
+  }
+  .whatever .bbuilds{
+    font-size: 22px;
+  }
+}
+.gridcondos{
+  margin-top: 8vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 13vh;
+  padding-right: 9vh;
+  gap: 29px;
+  align-items: center;
+}
+@media screen and (max-width:1209px) {
+  .gridcondos{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.condos{
+  padding-top: 4vh;
+  background-color:
+  rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  box-shadow: 0 3px 30px rgba(45, 39, 71, 0.1);
+}
+@media screen and (max-width:485px) {
+  .condos .group{
+    text-align: center;
+  }
+}
+.group{
+  padding-bottom: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width:485px) {
+  .group{
+    display: block;
+  }
+}
+.cdtext{
+  margin-top: 1.5vh;
+  margin-left: 1.2vh;
+  font-family: Airbnb Cereal App;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(50, 44, 78, 1);
+}
+@media screen and (max-width:499px) {
+  .cdtext{
+    text-align: center;
+    /* font-size: 10px;*/
+  }
+  .imagecd img{
+    max-width: 20px;
+  }
+}
+.condos1{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 4vh;
+  
+  background-color:
+  rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  margin-top: 3vh;
+  box-shadow: 0px 3px 30px rgba(45, 39, 71, 0.1);
+}
+.col4dos .condos{
+  margin-left: 4vh;
+}
+@media screen and (max-width:1209px) {
+  .col4dos .condos{
+    margin-left: 0vh;
+  }
+}
+.col4dos .condos1{
+  margin-left: 4vh;
+}
+@media screen and (max-width:1209px) {
+  .col4dos .condos1{
+    margin-left: 0vh;
+  }
+}
+.col1dos .condos{
+margin-left: 3vh;
+}
+@media screen and (max-width:1209px) {
+  .col1dos .condos{
+    margin-left: 0vh;
+  }
+}
+.col1dos .condos1{
+  margin-left: 3vh;  
+}
+@media screen and (max-width:1209px) {
+  .col1dos .condos1{
+    margin-left: 0vh;
   }
 }
