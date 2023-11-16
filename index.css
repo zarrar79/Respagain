@@ -1125,6 +1125,14 @@ margin-left: 3vh;
     grid-template-columns: 1fr 1fr;
   }
 }
+@media screen and (max-width:403px) {
+  .gridcondos{
+    padding: 0rem;
+    max-width: 97%;
+    margin-left: 18px;
+    margin-right: 16px;
+  }
+}
 .condos{
   padding-top: 4vh;
   background-color:
