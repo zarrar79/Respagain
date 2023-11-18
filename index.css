@@ -670,7 +670,7 @@
     padding-left: 11rem;
   }
 }
-@media screen and (max-width:1199px) {
+@media screen and (max-width:1199p) {
   .find{
     padding-left: 3rem;
   }
@@ -713,17 +713,17 @@
   padding-top: 1vh;
   padding-left: 15rem;
 }
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1200px){
   .large{
     padding-left: 11rem;
   }
 }
-@media screen and (max-width:1064px) {
+@media screen and (max-width:1064px){
   .large{
     margin-left: 2rem;
   }
 }
-@media screen and (max-width:1199px) {
+@media screen and (max-width:1199px){
   .large{
     padding-left: 3rem;
   }
@@ -1214,7 +1214,7 @@ margin-left: 3vh;
 .col1dos .condos{
 margin-left: 3vh;
 }
-@media screen and (max-width:1209px) {
+@media screen and (max-width:1209px){
   .col1dos .condos{
     margin-left: 0vh;
   }
@@ -1225,5 +1225,279 @@ margin-left: 3vh;
 @media screen and (max-width:1209px) {
   .col1dos .condos1{
     margin-left: 0vh;
+  }
+}
+.searchfcon{
+  padding-top: 2.5vh;
+  padding-bottom: 6.2vh;
+  cursor:pointer;
+  margin-top: 5vh;
+  margin-left: 22px;
+  font-family: Airbnb Cereal App;
+  font-weight: 600;
+  font-size: 15px;
+  color: 
+  rgba(255, 255, 255, 1);
+  width: 192px;
+  height: 52px;
+  border-radius: 5px;
+  border: 1px solid rgba(232, 127, 63, 1);   
+  background-color: 
+  rgba(232, 127, 63, 1);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8vh;
+}
+.fourth{
+  margin-top: 2vh;
+  margin-left: 30vh;
+  margin-bottom: 10vh;
+  display: flex;
+  position: relative;
+}
+/* @media screen and (min-width:1200px) {
+  .fourth{
+    margin-left: 156px;
+  } */
+  @media screen and (max-width:1400px) {
+    .fourth{
+      margin-left: 5rem;
+    }
+  }
+  @media screen and (max-width:499px) {
+    .fourth{
+      margin-left: 0rem;
+    }
+  }
+.fourthl{
+  margin-top: 11vh;
+   margin-right: 89vh;
+}
+@media screen and (min-width:1200px) {
+  .fourthl{
+    margin-right: 49%
+  }
+}
+@media screen and (max-width:1097px) {
+  .fourthl{
+    align-items: center;
+    text-align: center;
+    margin-right: 0%;
+    width: 66%;
+  }
+  .reponsive{
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width:499px) {
+  .fourthl{
+   width: 70%;
+  }
+}
+.have{
+  font-family: Airbnb Cereal App;
+  font-weight: 800;
+  font-size: 26px;
+  color: rgba(50, 44, 78, 1);
+}
+.what1{
+  margin-top: 1vh;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgb(50, 44, 78);
+}
+.what{
+  display: inline;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgb(50, 44, 78);
+}
+.wflex1st{
+  padding-top: 0.5vh;
+  padding-bottom: 2vh;
+  color: 
+  rgb(50, 44, 78);
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  border-bottom: 0.5px 
+  rgba(214, 214, 214, 0.8) solid;  
+}
+  @media screen and (max-width:1097px) {
+    .wflex1st{
+      padding-left: 1rem;
+      text-align: center;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width:997px) {
+    .wflex1st{
+      justify-content: space-between;
+    }
+  }
+.wflex{
+  padding-top: 2vh;
+  padding-bottom: 1.3vh;
+  color: 
+  rgb(50, 44, 78);
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  border-bottom: 0.5px 
+  rgba(214, 214, 214, 0.8) solid;
+}
+@media screen and (max-width:1097px) {
+  .wflex{
+    text-align: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width:997px) {
+  .wflex{
+    justify-content: space-between;
+  }
+}
+.wflex1{
+  display: flex;
+}
+.imagef img{
+  position: absolute;
+  width: 65vh;
+  height: auto;
+   left: 43rem;
+   bottom: -15vh;
+}
+@media screen and (max-width:1200px){
+    .imagef img{
+      left: 35rem;
+      z-index: -1;
+  }
+}
+@media screen and (max-width:1097px) {
+  .imagef img{
+    display: none;
+  }
+}
+#d1{
+  margin-top: 8px;
+  margin-left: 2rem;
+}
+@media screen and (max-width:1200px) {
+  #d1{
+    margin-left: 2rem;
+  }
+}
+@media screen and (max-width:1097px) {
+  #d1{
+    margin-left: 1rem;
+  }
+}
+@media screen and (max-width:997px) {
+  #d1{
+    margin-left: 0rem;
+  }
+}
+#d2{
+  margin-left: 8.5rem;
+}
+@media screen and (max-width:1200px) {
+  #d2{
+    margin-left: 6.5rem;
+  }
+}
+@media screen and (max-width:1097px) {
+  #d2{
+  margin-left: 137px;
+  }
+  }
+  @media screen and (max-width:997px) {
+    #d2{
+      margin-left: 0rem;
+    }
+  }
+  @media screen and (max-width:499px) {
+    #d2{
+      margin-left: 1px;
+    }
+  }
+#d3{
+  margin-left: 3rem;
+}
+@media screen and (max-width:1200px) {
+  #d3{
+    margin-left: 0.8rem;
+  }
+}
+@media screen and (max-width:1097px) {
+  #d3{
+    margin-left: 48px;
+  }
+}
+@media screen and (max-width:997px) {
+  #d3{
+    margin-left: 0rem;
+  }
+}
+@media screen and (max-width:499px) {
+  #d3{
+    margin-left: 8px;
+  }
+}
+#d4{
+  margin-left: 8.4rem;
+}
+@media screen and (max-width:1200px) {
+  #d4{
+    margin-left: 6.4rem;
+  }
+}
+@media screen and (max-width:1097px) {
+  #d4{
+    margin-left: 142px;
+  }
+}
+@media screen and (max-width:1000px) {
+  #d4{
+    margin-left: 140px;
+  }
+}
+@media screen and (max-width:997px) {
+  #d4{
+    margin-left: 0rem;
+  }
+}
+@media screen and (max-width:499px) {
+  #d4{
+    margin-left: 24px;
+  }
+}
+#d5{
+  margin-left: 3.9rem;
+}
+@media screen and (max-width:1200px) {
+  #d5{
+    margin-left: 1.9rem;
+  }
+}
+@media screen and (max-width:1097px) {
+  #d5{
+    margin-left: 70px;
+  }
+}
+@media screen and (max-width:1000px) {
+  #d5{
+    margin-left: 68px;
+  }
+}
+@media screen and (max-width:997px) {
+  #d5{
+    margin-left: 0rem;
+  }
+}
+@media screen and (max-width:499px) {
+  #d5{
+    margin-left: 29px;
   }
 }
