@@ -1251,15 +1251,11 @@ margin-left: 3vh;
 }
 .fourth{
   margin-top: 2vh;
-  margin-left: 30vh;
+  margin-left: 30rem;
   margin-bottom: 10vh;
   display: flex;
   position: relative;
 }
-/* @media screen and (min-width:1200px) {
-  .fourth{
-    margin-left: 156px;
-  } */
   @media screen and (max-width:1400px) {
     .fourth{
       margin-left: 5rem;
@@ -1268,7 +1264,7 @@ margin-left: 3vh;
   @media screen and (max-width:499px) {
     .fourth{
       margin-left: 0rem;
-    }
+     }
   }
 .fourthl{
   margin-top: 11vh;
@@ -1481,23 +1477,95 @@ margin-left: 3vh;
     margin-left: 1.9rem;
   }
 }
-@media screen and (max-width:1097px) {
-  #d5{
-    margin-left: 70px;
-  }
+.foot{
+  background-color:rgba(50, 44, 78, 1);
+  height: auto;
+  padding-bottom: 1vh;
 }
-@media screen and (max-width:1000px) {
-  #d5{
-    margin-left: 68px;
-  }
+.centerall{
+   padding-top: 6vh;
+  text-align: center;
+  padding-bottom: 4vh;
 }
-@media screen and (max-width:997px) {
-  #d5{
+.buildplusimage{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 2.2vh;
+}
+.frbuilds{
+  font-family: Avenir;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 1.5vh;
+  margin-left: 2.7px;
+}
+.contactcom, .num{
+  font-weight: 400;
+  font-size: 16px;
+  color: 
+  rgba(255, 255, 255, 1);
+  font-family: Airbnb Cereal App;
+}
+.num{
+  margin-top: 1vh;
+}
+.lastflex{
+  margin-left: 90px;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Airbnb Cereal App;
+  display: flex;
+  margin-top: 3vh;
+}
+@media screen and (max-width:787px) {
+  .lastflex{
+    justify-content: center;
     margin-left: 0rem;
+    padding: 0rem;
   }
 }
 @media screen and (max-width:499px) {
-  #d5{
-    margin-left: 29px;
+  .lastflex{
+    font-size: 11px;
+  }
+}
+@media screen and (max-width:408px) {
+  .lastflex{
+    font-size: 8px;
+  }
+}
+.terms, .reserved{
+  margin-left: 18px;
+}
+.lasimg{
+  margin-left: 42rem;
+}
+@media screen and (max-width:1200px) {
+  .lasimg{
+    margin-left: 32rem;
+  }
+}
+@media screen and (max-width:1130px) {
+  .lasimg{
+    margin-left: 463px;
+  }
+}
+@media screen and (max-width:1067px) {
+  .lasimg{
+    margin-left: 300px;
+  }
+}
+@media screen and (max-width:875px) {
+  .lasimg{
+    margin-left: 170px;
+  }
+}
+@media screen and (max-width:787px) {
+.lasimg{
+    display: none;
   }
 }
